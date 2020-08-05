@@ -1,0 +1,4 @@
+SNo	Name	Sal	age
+1	abc	230	22
+2	def	240	23
+3	ghi	250	33
