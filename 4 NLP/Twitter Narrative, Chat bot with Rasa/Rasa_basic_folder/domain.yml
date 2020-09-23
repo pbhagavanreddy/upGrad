@@ -1,0 +1,47 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - stop
+  - restaurant_search
+
+entities:
+  - cuisine
+  - location
+  - price
+  - people
+
+slots:
+  cuisine:
+    type: text
+  location:
+    type: text
+
+actions:
+- utter_ask_cuisine
+- utter_ask_howcanhelp
+- utter_ask_location
+- utter_default
+- utter_goodbye
+- utter_greet
+
+responses:
+  utter_default:
+  - text: "I can not understand"
+
+  utter_ask_cuisine:
+  - text: "what kind of cuisine would you like?"
+
+  utter_ask_howcanhelp:
+  - text: "how can I help you?"
+
+  utter_ask_location:
+  - text: "In what location?"
+
+  utter_goodbye:
+  - text: "Good Bye"
+
+  utter_greet:
+  - text: "hey there! How may i help you"

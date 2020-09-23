@@ -1,0 +1,6 @@
+https://docs.python.org/2/library/re.html
+https://www.summet.com/dmsi/html/codesamples/addresses.html
+https://www.tutorialspoint.com/python/python_reg_expressions.htm
+https://www.datacamp.com/community/tutorials/python-regular-expression-tutorial
+https://www.analyticsvidhya.com/blog/2015/06/regular-expression-python/
+https://www.w3resource.com/python-exercises/re/
